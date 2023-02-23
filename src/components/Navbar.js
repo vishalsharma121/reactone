@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-export default function Navbar(props) { hgjf
+export default function Navbar(props) {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
     <div className="container-fluid">

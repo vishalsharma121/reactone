@@ -18,7 +18,7 @@ export default function Navbar(props) {
             <a className="nav-link active" aria-current="page" href="/">Project</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/">{props.abouttext}</a>
+            <a className="nav-link" href="/">{props.aboutText}</a>
           </li>
         </ul>
         <form className="d-flex">
@@ -34,3 +34,8 @@ Navbar.propTypes = {
     title: PropTypes.string,
     abouttext:PropTypes.string
 }
+// Specifies the default values for props:
+Navbar.defaultProps = {
+  title: 'set title here',
+  aboutText:'About text here',
+};

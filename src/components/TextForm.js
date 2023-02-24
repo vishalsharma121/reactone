@@ -28,7 +28,7 @@ return (
 </div>
 <div className="mb-3">
 <label htmlFor="text" className="form-label">Example textarea</label>
-<textarea className="form-control" value={text} onChange={handleOnChange} id="myBox" rows="8"></textarea>
+<textarea className="form-control" placeholder={text} onChange={handleOnChange} id="myBox" rows="8"></textarea>
 </div>
 <div className="btn btn-primary mx-2" onClick={handleUpClick}>Convert to Upercase</div>
 <div className="btn btn-primary max-2" onClick={handlelowClick}>Convert to Lowercase</div>
